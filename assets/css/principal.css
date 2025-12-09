@@ -1,0 +1,128 @@
+:root
+{
+    --text-azul: rgba(103, 168, 219, 1);
+    --text-naranja: rgba(245, 169, 79, 1);
+    --font-main: 'Inter', sans-serif;
+
+}
+
+html, body {
+    overflow-x: hidden; /* Corta cualquier cosa que se salga de lado */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* FONDO DE PÁGINA (Huellitas Amarillas) */
+body.fondo-pagina {
+    /* Ruta corregida y propiedades para cubrir todo */
+    background-image: url("../imagenes/fondo mas claro-02 1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* FONDO DEL MENÚ */
+.fondo-menu {
+    background-image: url("../imagenes/Banner sencillo_Mesa de trabajo 1 1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px; /* Altura mínima para que se vea la imagen */
+}
+
+.cuerpo-formato
+{
+    font-family: var(--font-main);
+    min-height: 100vh;
+}
+
+.texto-logo
+{
+    font-weight: 700 !important;
+    font-size: 28px !important;
+}
+
+.texto-menu
+{
+    font-weight: 600 !important;
+    font-size: 18px;
+}
+
+.margen-menu
+{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-left: 2rem;
+}
+
+.margen-contenido
+{
+    padding-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.fondo-contactos
+{
+    background-image: url("../imagenes/pie\ de\ pagina-03\ 1.jpg");
+    background-size: cover;
+    background-position: top center; 
+    background-repeat: no-repeat;
+    width: 100%;                     
+    min-height: auto;                 
+    padding-top: 5rem;               
+    padding-bottom: 2rem;
+}
+
+.texto-contacto
+{
+    color: var(--text-azul);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.texto-pie
+{
+    color: var(--text-naranja) !important;
+    font-weight: 600;
+    font-size: 16px; 
+}
+
+.margen-pie
+{
+    /*margin-top: 4rem;*/
+    /*margin-bottom: 4rem;*/
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.texto-contacto
+{
+    color: var(--text-azul);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.texto-naranja
+{color: var(--text-naranja) !important;}
+
+.texto-azul
+{color: var(--text-azul) !important;}
+
+.texto-contenido
+{font-size: 35px;}
+
+.icono-contacto
+{
+    width: 24px;
+    height: auto;
+}
+
+.margen-icono
+{
+    padding-right: 2.5rem;
+}
